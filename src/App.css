@@ -24,7 +24,14 @@ nav ul li a {
 }
 
 .container {
+  width: 33%;
+  height: 300px;
   margin-bottom: 20px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
 }
 
 /* Footer */

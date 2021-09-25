@@ -26,19 +26,19 @@ function Product() {
     <div className="products">
       <div className="product-container">
         <div className="container">
-          <Image src={image1} fluid />
+          <Image className="photo" src={image1} fluid />
           <p>Samsung galaxy buds</p>
           <p>$ 99.99</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image2} fluid />
+          <Image className="photo" src={image2} fluid />
           <p>hp Envy 360</p>
           <p>$ 699.99</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image3} fluid />
+          <Image className="photo" src={image3} fluid />
           <p>iPhone 13</p>
           <p>$ 799.99</p>
           <a href="/">Buy</a>
@@ -46,19 +46,19 @@ function Product() {
       </div>
       <div className="product-container">
         <div className="container">
-          <Image src={image4} fluid />
+          <Image className="photo" src={image4} fluid />
           <p>M1 macbook</p>
           <p>$ 1499.00</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image5} fluid />
+          <Image className="photo" src={image5} fluid />
           <p>Mercedes AMG</p>
           <p>$ 54750.99</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image6} fluid />
+          <Image className="photo" src={image6} fluid />
           <p>Microsoft Surface Studio 3</p>
           <p>$ 3499.99</p>
           <a href="/">Buy</a>
@@ -66,19 +66,19 @@ function Product() {
       </div>
       <div className="product-container">
         <div className="container">
-          <Image src={image4} fluid />
+          <Image className="photo" src={image4} fluid />
           <p>M1 macbook</p>
           <p>$ 1499.00</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image5} fluid />
+          <Image className="photo" src={image5} fluid />
           <p>Mercedes AMG</p>
           <p>$ 54750.99</p>
           <a href="/">Buy</a>
         </div>
         <div className="container">
-          <Image src={image6} fluid />
+          <Image className="photo" src={image6} fluid />
           <p>Microsoft Surface Studio 3</p>
           <p>$ 3499.99</p>
           <a href="/">Buy</a>
