@@ -26,3 +26,53 @@ nav ul li a {
 .container {
   margin-bottom: 20px;
 }
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000000;
+}
+
+.footer-container {
+  width: 33%;
+  min-height: 400px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container h3 {
+  font-size: 3rem;
+}
+
+/* Footer */
+
+/* Mobile view */
+
+@media only screen and (max-width: 425px){
+
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+
+	.footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+  }
+
+}
