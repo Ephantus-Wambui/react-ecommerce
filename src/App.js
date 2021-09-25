@@ -6,22 +6,15 @@ import image3 from './image/iPhone-13.jfif';
 import image4 from './image/m1-macbook.jfif';
 import image5 from './image/mercedes-amg.jfif';
 import image6 from './image/surface-studio-3.jfif';
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Reviews</a></li>
-            <li><a href="/">Checkout</a></li>
-            <li><a href="/">Account</a></li>
-            <li><a href="/">Contact Us</a></li>
-          </ul>
-        </nav>
-      </header>
+      <NavBar />
       <Product />
+      <Footer />
     </div>
   );
 }
