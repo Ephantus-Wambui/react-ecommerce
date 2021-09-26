@@ -2,10 +2,15 @@ import React from "react";
 import { Form, Button } from "react-bootstrap";
 
 function Contactus() {
+
+    const handleSubmit = (event) => {
+        event.preventDefault()
+    }
+
   return (
     <div className="contact">
 
-      <Form>
+      <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicText">
           <Form.Label>Fullname</Form.Label>
           <Form.Control type="text" placeholder="Fullname" />
@@ -24,7 +29,7 @@ function Contactus() {
           <Form.Control type="text-area" placeholder="Message" />
         </Form.Group>
         <Button variant="primary" className="mb-3" type="submit">
-          Submit
+          Send
         </Button>
       </Form>
 
