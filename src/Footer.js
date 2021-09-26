@@ -5,7 +5,7 @@ function Footer() {
         <div className="footer">
             <div className="footer-container">
                 <h3>E-commerce</h3>
-                <p>
+                <p className="text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis veniam nobis alias perferendis ea asperiores consequatur.
                 </p>
             </div>
