@@ -20,7 +20,7 @@ function NavBar() {
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/checkout" eventKey="link-2">
+            <Nav.Link href="/" eventKey="link-2">
               Checkout
             </Nav.Link>
           </Nav.Item>
@@ -34,7 +34,7 @@ function NavBar() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/reviews" component={Reviews} />
-            <Route exact path="/checkout" component={Checkout} />
+            <Route exact path="/" component={Checkout} />
             <Route exact path="/contactUs" component={Contactus} />
           </Switch>
         </div>
