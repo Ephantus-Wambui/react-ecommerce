@@ -46,8 +46,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Depencies required to run this project are:
 
-    node version >16
-    npm version >10
+    node version >14
+    npm version >6
     react >17
     react-bootstrap >1.6
     react-dom >17
