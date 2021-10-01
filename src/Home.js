@@ -1,11 +1,5 @@
 import React from "react";
 import { Image } from 'react-bootstrap';
-import image1 from './image/galaxy-buds.jfif';
-import image2 from './image/hp-envy-360.jfif';
-import image3 from './image/iPhone-13.jfif';
-import image4 from './image/m1-macbook.jfif';
-import image5 from './image/mercedes-amg.jfif';
-import image6 from './image/surface-studio-3.jfif';
 import Rating from './Rating';
 
 function Home() {
@@ -13,8 +7,8 @@ function Home() {
       <div className="products">
         <div className="product-container">
           <div className="container">
-            <Image className="photo" src={image1} fluid />
-            <p>Samsung galaxy buds</p>
+            <Image className="photo" src="https://picsum.photos/200?random=1" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 99.99</p>
             <p>
               <Rating rating="4" />
@@ -22,8 +16,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image2} fluid />
-            <p>hp Envy 360</p>
+            <Image className="photo" src="https://picsum.photos/200?random=2" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 699.99</p>
             <p>
               <Rating rating="4" />
@@ -31,8 +25,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image3} fluid />
-            <p>iPhone 13</p>
+            <Image className="photo" src="https://picsum.photos/200?random=3" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 799.99</p>
             <p>
               <Rating rating="3" />
@@ -42,8 +36,8 @@ function Home() {
         </div>
         <div className="product-container">
           <div className="container">
-            <Image className="photo" src={image4} fluid />
-            <p>M1 macbook</p>
+            <Image className="photo" src="https://picsum.photos/200?random=4" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 1499.00</p>
             <p>
               <Rating rating="4" />
@@ -51,8 +45,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image5} fluid />
-            <p>Mercedes AMG</p>
+            <Image className="photo" src="https://picsum.photos/200?random=5" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 54750.99</p>
             <p>
               <Rating rating="5" />
@@ -60,8 +54,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image6} fluid />
-            <p>Microsoft Surface Studio 3</p>
+            <Image className="photo" src="https://picsum.photos/200?random=6" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 3499.99</p>
             <p>
               <Rating rating="4" />
@@ -71,8 +65,8 @@ function Home() {
         </div>
         <div className="product-container">
           <div className="container">
-            <Image className="photo" src={image4} fluid />
-            <p>M1 macbook</p>
+            <Image className="photo" src="https://picsum.photos/200?random=7" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 1499.00</p>
             <p>
               <Rating rating="4" />
@@ -80,8 +74,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image5} fluid />
-            <p>Mercedes AMG</p>
+            <Image className="photo" src="https://picsum.photos/200?random=8" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 54750.99</p>
             <p>
               <Rating rating="5" />
@@ -89,8 +83,8 @@ function Home() {
             <a href="/">Buy</a>
           </div>
           <div className="container">
-            <Image className="photo" src={image6} fluid />
-            <p>Microsoft Surface Studio 3</p>
+            <Image className="photo" src="https://picsum.photos/200?random=9" fluid />
+            <p>Lorem Ipsum</p>
             <p>$ 3499.99</p>
             <p>
               <Rating rating="4" />

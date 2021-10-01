@@ -1,9 +1,6 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
-import image2 from './image/hp-envy-360.jfif';
-import image3 from './image/iPhone-13.jfif';
-import image5 from './image/mercedes-amg.jfif';
 import Rating from './Rating';
+import { Image } from 'react-bootstrap';
 
 function Review() {
 
@@ -13,11 +10,11 @@ function Review() {
 
             <div className="review-photo">
 
-                <Image className="photo-review" src={image3} />
+                <Image className="photo-review" src="https://picsum.photos/200?random=1" />
 
                 <div>
 
-                    <p>iPhone 13</p>
+                    <p>Lorem Ipsum</p>
 
                     <Rating rating="3" />
 
@@ -29,11 +26,11 @@ function Review() {
 
             <div className="review-photo">
 
-                <Image className="photo-review" src={image5} />
+                <Image className="photo-review" src="https://picsum.photos/200?random=2" />
 
                 <div>
 
-                    <p>Mercedes AMG</p>
+                    <p>Lorem Ipsum</p>
 
                     <Rating rating="5" />
 
@@ -45,11 +42,11 @@ function Review() {
 
             <div className="review-photo">
 
-                <Image className="photo-review" src={image2} />
+                <Image className="photo-review" src="https://picsum.photos/200?=3" />
 
                 <div>
 
-                    <p>hp Envy 360</p>
+                    <p>Lorem Ipsum</p>
 
                     <Rating rating="4" />
 
